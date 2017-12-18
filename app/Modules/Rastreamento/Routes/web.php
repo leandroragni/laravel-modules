@@ -15,4 +15,6 @@ Route::group(['prefix' => 'rastreamento'], function () {
     Route::get('/', function () {
         dd('This is the Rastreamento module index page. Build something great!');
     });
+    Route::get('/clientes', 'ClientesController@index');
+    Route::get('/clientes/novo', 'ClientesController@inserirCliente');
 });
