@@ -1,0 +1,6 @@
+{
+    "name": "ShortUrl",
+    "slug": "short-url",
+    "version": "1.0",
+    "description": "Módulo para criar urls curtas"
+}
